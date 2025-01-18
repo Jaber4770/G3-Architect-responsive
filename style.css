@@ -120,6 +120,27 @@ nav ul li {
     padding: 30px 0;
 }
 
+/* sponsors */
+.sponsors-info{
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+.sponsors-info h1{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 21px;
+}
+.sponsors-info p{
+    color: var(--description-color);
+}
+.sponsors-img{
+    padding: 50px 0 120px 0;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
 /* footer style */
 footer {
     margin-bottom: 2%;
