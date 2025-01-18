@@ -119,6 +119,35 @@ nav ul li {
     color: var(--description-color);
     padding: 30px 0;
 }
+/* facts */
+.facts{
+    text-align: center;
+}
+.facts-info{
+    width: 30%;
+    margin: 0 auto;
+}
+.facts-card{
+    color: var(--description-color);
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.facts-card>div{
+    padding: 60px 40px;
+    border-radius: 8px;
+    border: 1px solid #ff900e;
+    width: 150px;
+}
+.facts div h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.facts-card div h3{
+    font-size: 3rem;
+}
 
 /* sponsors */
 .sponsors-info{
